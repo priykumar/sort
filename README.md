@@ -1,5 +1,5 @@
-In-place: An algorithm that sorts the array using only a constant amount of extra memory (O(1) space). Recursion stack space is not considered here
-Stable: An algorithm that preserves the relative order of equal elements
+In-place: An algorithm that sorts the array using only a constant amount of extra memory (O(1) space). Recursion stack space is not considered here  
+Stable: An algorithm that preserves the relative order of equal elements  
 
 Sorting Algorithms Comparison Table
 | Algorithm       | Best Case    | Average Case | Worst Case   | Space Complexity         | In-place | Stable |
@@ -10,9 +10,9 @@ Sorting Algorithms Comparison Table
 | Bubble Sort     | O(n²)***     | O(n²)        | O(n²)        | O(1)                     | Yes      | Yes    |
 | Selection Sort  | O(n²)        | O(n²)        | O(n²)        | O(1)                     | Yes      | No     |
 
-*Quick Sort is "in-place" by practical definition (sorts within original array) but uses O(log n) space for recursion stack
-**Merge Sort can be made in-place but becomes very complex with worse time complexity
-***Bubble Sort can be optimized to O(n) best case with early termination
+*Quick Sort is "in-place" by practical definition (sorts within original array) but uses O(log n) space for recursion stack  
+**Merge Sort can be made in-place but becomes very complex with worse time complexity  
+***Bubble Sort can be optimized to O(n) best case with early termination  
 
 | Use Case                     | Recommended Algorithm    | Reason                         |
 |------------------------------|--------------------------|--------------------------------|
