@@ -35,3 +35,18 @@ func mergeArrays(b, c []int) []int {
 
 	return res
 }
+
+/*
+Time Complexities
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+
+Always splits the array exactly in half: m := l + (r-l)/2. Creates a balanced binary tree of recursive calls. Tree depth is always log n levels, 
+hence all cases are the same
+
+Space Complexity
+O(n) 
+*/
+
+
