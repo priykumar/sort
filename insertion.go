@@ -19,3 +19,13 @@ func insertionSort(a []int) []int {
 
 	return a
 }
+
+/*
+Time Complexities
+Best Case: O(n)  -->  Occurs when the array is already sorted
+Average Case: O(n²)
+Worst Case: O(n²)  -->  Occurs when the array is reverse sorted
+
+Space Complexity
+O(1)
+*/
