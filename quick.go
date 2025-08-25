@@ -25,7 +25,7 @@ func quickSort(a []int) []int {
 		return a
 	}
 	p := partition(a)
-	quickSort(a[:p+1])
+	quickSort(a[:p])
 	quickSort(a[p+1:])
 	return a
 }
