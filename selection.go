@@ -16,3 +16,12 @@ func selectionSort(a []int) []int {
 
 	return a
 }
+
+/*
+Time Complexities
+Best Case: O(n²)
+Average Case: O(n²)
+Worst Case: O(n²)
+
+Space Complexity: O(1)
+*/
